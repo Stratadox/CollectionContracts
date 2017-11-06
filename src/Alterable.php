@@ -12,20 +12,4 @@ interface Alterable extends Collection
      * @return Alterable|static The calling instance or an altered copy.
      */
     public function change(int $index, $newItem) : Alterable;
-
-    /**
-     * Delete the item at a given position.
-     *
-     * @param int $index        Position to delete.
-     * @return Alterable|static The calling instance or an altered copy.
-     */
-    public function delete(int $index) : Alterable;
-
-    /**
-     * Remove the given items.
-     *
-     * @param array ...$theUnwantedItems    Items to remove.
-     * @return Alterable|static             The calling instance or an altered copy.
-     */
-    public function remove(...$theUnwantedItems) : Alterable;
 }
