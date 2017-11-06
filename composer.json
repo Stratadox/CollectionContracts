@@ -1,5 +1,6 @@
 {
-  "name": "stratadox/immutable-collection",
+  "name": "stratadox/collection-contracts",
+  "description": "Interfaces for the collection classes.",
   "license": "MIT",
   "authors": [
     {
@@ -13,7 +14,7 @@
     }
   },
   "require": {
-    "php": ">=7.1",
+    "php": ">=7.0",
     "stratadox/specification-interfaces": "^1.0"
   }
 }
