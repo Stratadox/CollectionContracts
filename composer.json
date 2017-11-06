@@ -1,0 +1,19 @@
+{
+  "name": "stratadox/immutable-collection",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stratadox",
+      "homepage": "http://www.stratadox.com/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Stratadox\\Collection\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "stratadox/specification-interfaces": "^1.0"
+  }
+}
