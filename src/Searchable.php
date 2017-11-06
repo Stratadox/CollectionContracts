@@ -40,7 +40,7 @@ interface Searchable extends Collection
      *
      * @param mixed $item       The item to check for
      * @return int
-     * @throws NoSuchValue
+     * @throws NotFound
      */
     public function find($item) : int;
 
@@ -50,7 +50,7 @@ interface Searchable extends Collection
      *
      * @param object $object    The object to check for
      * @return int
-     * @throws NoSuchValue
+     * @throws NotFound
      */
     public function findThe($object) : int;
 }
