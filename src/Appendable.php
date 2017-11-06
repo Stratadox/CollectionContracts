@@ -11,12 +11,4 @@ interface Appendable extends Collection
      * @return Appendable|static    The calling instance or an altered copy.
      */
     public function add(...$newItems) : Appendable;
-
-    /**
-     * Merge the values of another collection into this one.
-     *
-     * @param Collection $withAnotherCollection The collection to merge in.
-     * @return Appendable|static                The calling instance or an altered copy.
-     */
-    public function merge(Collection $withAnotherCollection) : Appendable;
 }
