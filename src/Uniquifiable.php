@@ -7,7 +7,7 @@ interface Uniquifiable
     /**
      * Returns a copy of the collection with all duplicates removed.
      *
-     * @return Uniquifiable|static The calling instance or an altered copy.
+     * @return self|static The calling instance or an altered copy.
      */
-    public function unique() : Uniquifiable;
+    public function unique() : self;
 }

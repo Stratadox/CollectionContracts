@@ -7,7 +7,7 @@ interface Sortable
     /**
      * Sorts the values in the collection.
      *
-     * @return Sortable|static The calling instance or an altered copy.
+     * @return self|static The calling instance or an altered copy.
      */
-    public function sort() : Sortable;
+    public function sort() : self;
 }

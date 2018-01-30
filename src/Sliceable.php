@@ -9,7 +9,7 @@ interface Sliceable
      *
      * @param int $size
      * @param int $offset
-     * @return Sliceable|static The calling instance or an altered copy.
+     * @return self|static The calling instance or an altered copy.
      */
-    public function slice(int $size, int $offset = 0) : Sliceable;
+    public function slice(int $size, int $offset = 0) : self ;
 }

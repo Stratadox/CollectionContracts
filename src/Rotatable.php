@@ -9,7 +9,7 @@ interface Rotatable
      * moving overflowing items to the front.
      *
      * @param int $distance Move the items by this many places
-     * @return Rotatable    The calling instance or an altered copy
+     * @return self|static  The calling instance or an altered copy
      */
-    public function rotate(int $distance) : Rotatable;
+    public function rotate(int $distance) : self;
 }

@@ -11,5 +11,5 @@ interface Swappable
      * @param int $withTheOtherPosition
      * @return self|static The calling instance or an altered copy.
      */
-    public function swap(int $position, int $withTheOtherPosition) : Swappable;
+    public function swap(int $position, int $withTheOtherPosition) : self;
 }

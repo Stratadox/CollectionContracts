@@ -7,14 +7,14 @@ interface Shuffleable
     /**
      * Shuffles the values in the collection.
      *
-     * @return Shuffleable|static The calling instance or an altered copy.
+     * @return self|static The calling instance or an altered copy.
      */
-    public function shuffle() : Shuffleable;
+    public function shuffle() : self;
 
     /**
      * Picks a random item from the collection.
      *
      * @return mixed|object The item from the collection.
      */
-    public function oneAtRandom() : Shuffleable;
+    public function oneAtRandom();
 }
