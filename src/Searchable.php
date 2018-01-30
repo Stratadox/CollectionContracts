@@ -13,8 +13,8 @@ interface Searchable extends Collection
      * For non-objects, this means strict checking. For objects, however, it
      * means loose checking, according to php standards.
      *
-     * @param mixed $item       The item to check for.
-     * @return bool
+     * @param mixed $item The item to check for.
+     * @return bool       Whether the item is in the collection.
      */
     public function has($item) : bool;
 
@@ -24,8 +24,8 @@ interface Searchable extends Collection
      * An object is considered "part of a collection" if it has the same
      * reference as any of the items on the collection.
      *
-     * @param object $object    The object to check for
-     * @return bool
+     * @param object $object The object to check for.
+     * @return bool          Whether the object is in the collection.
      */
     public function hasThe($object) : bool;
 
@@ -38,9 +38,9 @@ interface Searchable extends Collection
      * For non-objects, this means strict checking. For objects, however, it
      * means loose checking, according to php standards.
      *
-     * @param mixed $item       The item to check for
-     * @return int
-     * @throws NotFound
+     * @param mixed $item The item to look for.
+     * @return int        The position of the item in the collection.
+     * @throws NotFound   When the item is not in the collection.
      */
     public function find($item) : int;
 
@@ -48,9 +48,9 @@ interface Searchable extends Collection
      * Finds the position of the object in the collection by comparing the
      * references.
      *
-     * @param object $object    The object to check for
-     * @return int
-     * @throws NotFound
+     * @param object $object The object to look for.
+     * @return int           The position of the item in the collection.
+     * @throws NotFound      When the item is not in the collection.
      */
     public function findThe($object) : int;
 }

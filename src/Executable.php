@@ -14,7 +14,6 @@ interface Executable
      * if the item is an object.
      *
      * @param Closure $function The function to execute.
-     * @return void
      */
     public function execute(Closure $function) : void;
 }

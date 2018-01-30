@@ -9,7 +9,7 @@ interface Paddable
      *
      * @param int $amount   Minimum size of the collection after the operation.
      * @param mixed $value  The value to pad with; must be compatible.
-     * @return self|static
+     * @return self|static  The calling instance or an altered copy.
      */
     public function padLeft(int $amount, $value) : self;
 
@@ -18,7 +18,7 @@ interface Paddable
      *
      * @param int $amount   Minimum size of the collection after the operation.
      * @param mixed $value  The value to pad with; must be compatible.
-     * @return self|static
+     * @return self|static  The calling instance or an altered copy.
      */
     public function padRight(int $amount, $value) : self;
 }

@@ -7,9 +7,9 @@ interface Swappable
     /**
      * Swaps the positions of two values in the collection.
      *
-     * @param int $position
-     * @param int $withTheOtherPosition
-     * @return self|static The calling instance or an altered copy.
+     * @param int $position             Changes the item at this location...
+     * @param int $withTheOtherPosition ...with the item at this location.
+     * @return self|static              The calling instance or an altered copy.
      */
     public function swap(int $position, int $withTheOtherPosition) : self;
 }
