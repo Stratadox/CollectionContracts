@@ -4,5 +4,12 @@ namespace Stratadox\Collection;
 
 interface Rotatable
 {
-    public function rotate(int $amount) : Rotatable;
+    /**
+     * Rotates the items in the collection by moving each element n places,
+     * moving overflowing items to the front.
+     *
+     * @param int $distance Move the items by this many places
+     * @return Rotatable    The calling instance or an altered copy
+     */
+    public function rotate(int $distance) : Rotatable;
 }
