@@ -4,9 +4,9 @@ namespace Stratadox\Collection;
 
 use ArrayAccess;
 use Countable;
-use Traversable;
+use Iterator;
 
-interface Collection extends ArrayAccess, Countable, Traversable
+interface Collection extends ArrayAccess, Countable, Iterator
 {
     /**
      * Yields an array copy of the collection.
