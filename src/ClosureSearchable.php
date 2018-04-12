@@ -11,6 +11,7 @@ interface ClosureSearchable extends Collection
      *
      * @param Closure $function Function that takes an item and returns boolean.
      * @return mixed            One of the items in the collection.
+     * @throws NotFound         If none of the items are accepted.
      */
     public function findOneWith(Closure $function);
 
