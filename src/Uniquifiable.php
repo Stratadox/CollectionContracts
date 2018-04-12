@@ -2,7 +2,7 @@
 
 namespace Stratadox\Collection;
 
-interface Uniquifiable
+interface Uniquifiable extends Collection
 {
     /**
      * Returns a copy of the collection with all duplicates removed.

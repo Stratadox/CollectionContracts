@@ -2,7 +2,7 @@
 
 namespace Stratadox\Collection;
 
-interface Shuffleable
+interface Shuffleable extends Collection
 {
     /**
      * Shuffles the values in the collection.

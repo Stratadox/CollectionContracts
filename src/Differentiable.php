@@ -2,7 +2,7 @@
 
 namespace Stratadox\Collection;
 
-interface Differentiable
+interface Differentiable extends Collection
 {
     /**
      * Yields a collection with all the items of this collection that are not

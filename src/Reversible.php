@@ -2,7 +2,7 @@
 
 namespace Stratadox\Collection;
 
-interface Reversible
+interface Reversible extends Collection
 {
     /**
      * Reverses the order of the elements in the collection.

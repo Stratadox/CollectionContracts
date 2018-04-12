@@ -2,7 +2,7 @@
 
 namespace Stratadox\Collection;
 
-interface JsonSerializable
+interface JsonSerializable extends Collection
 {
     /**
      * Exports the collection into a json string.

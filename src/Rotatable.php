@@ -2,7 +2,7 @@
 
 namespace Stratadox\Collection;
 
-interface Rotatable
+interface Rotatable extends Collection
 {
     /**
      * Rotates the items in the collection by moving each element n places,

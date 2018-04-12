@@ -4,7 +4,7 @@ namespace Stratadox\Collection;
 
 use Closure;
 
-interface Executable
+interface Executable extends Collection
 {
     /**
      * Has each item in the collection execute the function.

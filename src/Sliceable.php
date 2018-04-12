@@ -2,7 +2,7 @@
 
 namespace Stratadox\Collection;
 
-interface Sliceable
+interface Sliceable extends Collection
 {
     /**
      * Takes a slice from the collection.

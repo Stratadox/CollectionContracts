@@ -2,7 +2,7 @@
 
 namespace Stratadox\Collection;
 
-interface Paddable
+interface Paddable extends Collection
 {
     /**
      * Adds values to the beginning of the collection until an amount is reached.

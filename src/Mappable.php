@@ -4,7 +4,7 @@ namespace Stratadox\Collection;
 
 use Closure;
 
-interface Mappable
+interface Mappable extends Collection
 {
     /**
      * Applies the function to each of the elements, putting back the result.

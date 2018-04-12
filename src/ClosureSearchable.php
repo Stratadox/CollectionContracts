@@ -4,7 +4,7 @@ namespace Stratadox\Collection;
 
 use Closure;
 
-interface ClosureSearchable
+interface ClosureSearchable extends Collection
 {
     /**
      * Finds the first item for which the closure returns true.

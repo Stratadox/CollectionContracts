@@ -2,7 +2,7 @@
 
 namespace Stratadox\Collection;
 
-interface Swappable
+interface Swappable extends Collection
 {
     /**
      * Swaps the positions of two values in the collection.
