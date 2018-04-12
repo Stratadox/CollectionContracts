@@ -11,5 +11,5 @@ interface Swappable extends Collection
      * @param int $withTheOtherPosition ...with the item at this location.
      * @return self|static              The calling instance or an altered copy.
      */
-    public function swap(int $position, int $withTheOtherPosition) : self;
+    public function swap(int $position, int $withTheOtherPosition): self;
 }

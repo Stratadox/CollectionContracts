@@ -14,7 +14,7 @@ interface Sortable extends Collection
      *                               Takes two items and returns -1, 0 or 1.
      * @return self|static           The calling instance or an altered copy.
      */
-    public function sort(Closure $function = null) : self;
+    public function sort(Closure $function = null): self;
 
     /**
      * Reorders the collection based on a sorting definition.
@@ -22,5 +22,5 @@ interface Sortable extends Collection
      * @param DefinesHowToSort $sort The definition on how to sort.
      * @return Sortable              The calling instance or an altered copy.
      */
-    public function reorder(DefinesHowToSort $sort) : self;
+    public function reorder(DefinesHowToSort $sort): self;
 }

@@ -13,5 +13,5 @@ interface Collection extends ArrayAccess, Countable, Iterator
      *
      * @return array An array representation of the items in the collection.
      */
-    public function items() : array;
+    public function items(): array;
 }

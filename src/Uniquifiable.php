@@ -9,5 +9,5 @@ interface Uniquifiable extends Collection
      *
      * @return self|static The calling instance or an altered copy.
      */
-    public function unique() : self;
+    public function unique(): self;
 }

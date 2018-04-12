@@ -9,5 +9,5 @@ interface Reversible extends Collection
      *
      * @return self|static The calling instance or an altered copy.
      */
-    public function reverse() : self;
+    public function reverse(): self;
 }

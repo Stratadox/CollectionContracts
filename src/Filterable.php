@@ -13,7 +13,7 @@ interface Filterable extends Collection
      * @param Satisfiable $condition The condition that has to be satisfied.
      * @return self|static           The calling instance or an altered copy.
      */
-    public function that(Satisfiable $condition) : self;
+    public function that(Satisfiable $condition): self;
 
     /**
      * Filters the collection using a specification.
@@ -21,5 +21,5 @@ interface Filterable extends Collection
      * @param Closure $function The function that checks the elements.
      * @return self|static      The calling instance or an altered copy.
      */
-    public function filterWith(Closure $function) : self;
+    public function filterWith(Closure $function): self;
 }

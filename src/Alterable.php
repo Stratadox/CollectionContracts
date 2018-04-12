@@ -11,5 +11,5 @@ interface Alterable extends Collection
      * @param mixed $newItem The item to put there instead.
      * @return self|static   The calling instance or an altered copy.
      */
-    public function change(int $index, $newItem) : self;
+    public function change(int $index, $newItem): self;
 }

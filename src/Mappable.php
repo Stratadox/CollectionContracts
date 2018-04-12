@@ -12,5 +12,5 @@ interface Mappable extends Collection
      * @param Closure $function The function used for mapping the collection.
      * @return self|static      The calling instance or an altered copy.
      */
-    public function map(Closure $function) : self;
+    public function map(Closure $function): self;
 }

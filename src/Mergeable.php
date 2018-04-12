@@ -10,5 +10,5 @@ interface Mergeable extends Collection
      * @param Collection $withAnotherCollection The collection to merge in.
      * @return self|static                      The calling instance or an altered copy.
      */
-    public function merge(Collection $withAnotherCollection) : self;
+    public function merge(Collection $withAnotherCollection): self;
 }

@@ -10,5 +10,5 @@ interface JsonSerializable extends Collection
      * @return string           Json formatted string.
      * @throws ConversionFailed When the collection could not be converted.
      */
-    public function json() : string;
+    public function json(): string;
 }

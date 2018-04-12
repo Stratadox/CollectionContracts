@@ -10,5 +10,5 @@ interface Implodable extends Collection
      * @return string           Imploded string.
      * @throws ConversionFailed When the collection could not be converted.
      */
-    public function implode($glue = ', ') : string;
+    public function implode($glue = ', '): string;
 }

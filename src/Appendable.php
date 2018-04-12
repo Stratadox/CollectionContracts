@@ -10,5 +10,5 @@ interface Appendable extends Collection
      * @param array ...$newItems The items to add.
      * @return self|static       The calling instance or an altered copy.
      */
-    public function add(...$newItems) : self;
+    public function add(...$newItems): self;
 }

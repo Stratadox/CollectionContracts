@@ -16,7 +16,7 @@ interface Searchable extends Collection
      * @param mixed $item The item to check for.
      * @return bool       Whether the item is in the collection.
      */
-    public function has($item) : bool;
+    public function has($item): bool;
 
     /**
      * Checks if the object is part of the collection.
@@ -27,7 +27,7 @@ interface Searchable extends Collection
      * @param object $object The object to check for.
      * @return bool          Whether the object is in the collection.
      */
-    public function hasThe($object) : bool;
+    public function hasThe($object): bool;
 
     /**
      * Finds the position of the item in the collection.
@@ -42,7 +42,7 @@ interface Searchable extends Collection
      * @return int        The position of the item in the collection.
      * @throws NotFound   When the item is not in the collection.
      */
-    public function find($item) : int;
+    public function find($item): int;
 
     /**
      * Finds the position of the object in the collection by comparing the
@@ -52,5 +52,5 @@ interface Searchable extends Collection
      * @return int           The position of the item in the collection.
      * @throws NotFound      When the item is not in the collection.
      */
-    public function findThe($object) : int;
+    public function findThe($object): int;
 }

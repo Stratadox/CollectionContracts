@@ -11,5 +11,5 @@ interface Rotatable extends Collection
      * @param int $distance Move the items by this many places.
      * @return self|static  The calling instance or an altered copy.
      */
-    public function rotate(int $distance) : self;
+    public function rotate(int $distance): self;
 }

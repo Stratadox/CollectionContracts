@@ -15,5 +15,5 @@ interface Executable extends Collection
      *
      * @param Closure $function The function to execute.
      */
-    public function execute(Closure $function) : void;
+    public function execute(Closure $function): void;
 }
