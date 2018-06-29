@@ -7,9 +7,9 @@ interface Shuffleable extends Collection
     /**
      * Shuffles the values in the collection.
      *
-     * @return self|static The calling instance or an altered copy.
+     * @return static The calling instance or an altered copy.
      */
-    public function shuffle(): self;
+    public function shuffle();
 
     /**
      * Picks a random item from the collection.

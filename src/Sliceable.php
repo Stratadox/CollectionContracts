@@ -9,7 +9,7 @@ interface Sliceable extends Collection
      *
      * @param int $size   The size of the slice to take.
      * @param int $offset The position at which to start slicing.
-     * @return self|static The calling instance or an altered copy.
+     * @return static     The calling instance or an altered copy.
      */
-    public function slice(int $size, int $offset = 0): self;
+    public function slice(int $size, int $offset = 0);
 }

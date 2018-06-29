@@ -9,7 +9,7 @@ interface Differentiable extends Collection
      * in the other collection.
      *
      * @param Collection[] $others The collection(s) to compare to.
-     * @return self|static         The calling instance or an altered copy.
+     * @return static              The calling instance or an altered copy.
      */
-    public function differenceBetween(Collection ...$others): self;
+    public function differenceBetween(Collection ...$others);
 }
