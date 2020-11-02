@@ -7,10 +7,11 @@ use Closure;
 interface Mappable extends Collection
 {
     /**
-     * Applies the function to each of the elements, putting back the result.
+     * Applies the function to each of the elements, returning an array of
+     * mapped results.
      *
      * @param Closure $function The function used for mapping the collection.
-     * @return Collection       The mapped collection.
+     * @return array
      */
-    public function map(Closure $function): Collection;
+    public function map(Closure $function): array;
 }
