@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27e361db6b504ad716a8c18d284aecf4",
+    "content-hash": "ca052fc366e952809b8e5b872d0f49c9",
     "packages": [
         {
             "name": "stratadox/sorting-contracts",
-            "version": "v0.1",
+            "version": "v0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Stratadox/SortingContracts.git",
-                "reference": "e575b6dc8d9f513d084df741bd0c15bccc9b3720"
+                "reference": "f040c3f45460a1d03748f14e62635cfccbe185a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Stratadox/SortingContracts/zipball/e575b6dc8d9f513d084df741bd0c15bccc9b3720",
-                "reference": "e575b6dc8d9f513d084df741bd0c15bccc9b3720",
+                "url": "https://api.github.com/repos/Stratadox/SortingContracts/zipball/f040c3f45460a1d03748f14e62635cfccbe185a5",
+                "reference": "f040c3f45460a1d03748f14e62635cfccbe185a5",
                 "shasum": ""
             },
             "require": {
@@ -39,7 +39,11 @@
                     "homepage": "http://www.stratadox.com/"
                 }
             ],
-            "time": "2018-04-12T20:45:51+00:00"
+            "support": {
+                "issues": "https://github.com/Stratadox/SortingContracts/issues",
+                "source": "https://github.com/Stratadox/SortingContracts/tree/master"
+            },
+            "time": "2019-11-24T20:48:45+00:00"
         },
         {
             "name": "stratadox/specification-interfaces",
@@ -99,6 +103,10 @@
                 "specifying",
                 "stratadox"
             ],
+            "support": {
+                "issues": "https://github.com/Stratadox/SpecificationInterfaces/issues",
+                "source": "https://github.com/Stratadox/SpecificationInterfaces/tree/v1.0.1"
+            },
             "time": "2017-09-07T22:10:47+00:00"
         }
     ],
@@ -109,7 +117,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.0"
+        "php": ">=7.1"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }

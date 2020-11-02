@@ -3,7 +3,7 @@
 namespace Stratadox\Collection;
 
 use Closure;
-use Stratadox\Sorting\Contracts\DefinesHowToSort;
+use Stratadox\Sorting\Contracts\Sorting;
 
 interface Sortable extends Collection
 {
@@ -19,8 +19,8 @@ interface Sortable extends Collection
     /**
      * Reorders the collection based on a sorting definition.
      *
-     * @param DefinesHowToSort $sort The definition on how to sort.
+     * @param Sorting $sort The definition on how to sort.
      * @return static                The calling instance or an altered copy.
      */
-    public function reorder(DefinesHowToSort $sort);
+    public function reorder(Sorting $sort);
 }

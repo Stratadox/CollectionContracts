@@ -16,6 +16,6 @@
   "require": {
     "php": ">=7.1",
     "stratadox/specification-interfaces": "^1.0",
-    "stratadox/sorting-contracts": "^0.1.0"
+    "stratadox/sorting-contracts": "^0.3.0"
   }
 }
