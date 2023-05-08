@@ -14,7 +14,7 @@
     }
   },
   "require": {
-    "php": ">=7.1",
+    "php": ">=8.0",
     "stratadox/specification-interfaces": "^1.0",
     "stratadox/sorting-contracts": "^0.3.0"
   }
